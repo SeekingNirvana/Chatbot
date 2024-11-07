@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="chatbot.css">
+    <link rel="shortcut icon"
+        href="DALL·E 2024-11-05 20.53.34 - A futuristic chatbot icon featuring a friendly, minimalist robot face with rounded features, glowing eyes, and a soft smile. The chatbot has a modern,.webp"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+
+            <img class="image-container"
+                src="DALL·E 2024-11-05 20.53.34 - A futuristic chatbot icon featuring a friendly, minimalist robot face with rounded features, glowing eyes, and a soft smile. The chatbot has a modern,.webp"
+                alt="Chatbot Image">
+            <h2 class="chatbot-name">
+                Chatbot
+            </h2>
+        </div>
+        <div class="chat-log" id="chat-log">
+            <div class="message received"></div>
+            <p id="welcome message">Welcome to curious Advisor! How can i assist you today? </p>
+        </div>
+        <div class="chat-input">
+            <input type="text" class="user-input" placeholder="Type a Message">
+            <button id="send-btn">Send</button>
+            <button id="clear-btn">Clear</button>
+            <button id="voice-btn">VoiceDetector</button>
+            <button id="message-reader-btn">MessageReader</button>
+            <button id="conversation-reader-btn">ConversationReader</button>
+        </div>
+    </div>
+    <div id="loading-indicator">
+        <div class="loading-spinner"></div>
+    </div>
+</body>
+
+</html>
